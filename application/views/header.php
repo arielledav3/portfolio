@@ -46,7 +46,7 @@ $(document).ready(function(){
 		<ul class="nav navbar-center">
 	
 			<li><a href="<?= site_url('Welcome/') ?>" class="navbar-brand"><span class="glyphicon glyphicon-home"></span></a></li>
-			<li><a href="<?= site_url('Design/') ?>" class="navbar-brand">Design</a></li>
+			<li><a href="http://arielleportfolio.herokuapp.com/Design/"class="navbar-brand">Design</a></li>
 			<li><a href="<?= site_url('Project/') ?>" class="navbar-brand">Projects</a></li>
 			<li><a href="<?= site_url('Resume/') ?>" class="navbar-brand">Skills/Resume</a></li>
 			<li><a href="<?= site_url('Blog/') ?>" class="navbar-brand">Blog</a></li>
