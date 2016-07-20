@@ -1,7 +1,5 @@
 <?php include_once('header.php'); ?>
-<main class="row">
-<div class="projects">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<div id="carousel-example-generic" class="carousel slide container" data-ride="carousel">
 		  <!-- Indicators -->
 		  <!--<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -50,15 +48,12 @@
 			<span class="sr-only">Next</span>
 		  </a>
 		</div>
- 
-</div>
-</main>
+
 <?php include_once('footer.php'); ?>
 
 <style>
 	.carousel{width:800px; height:500px; margin-top:-20px}
 	.img-horz{width:300px; height:350px; text-align:center;}
-	.projects {margin-left:300px;}
 	.carousel-caption {position: relative;left: auto; right: auto; background-color:#000000}
 	.carousel-indicators { bottom:40px;}
 	.carousel-indicators li{border-radius: 0}

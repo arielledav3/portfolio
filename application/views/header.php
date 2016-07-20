@@ -10,12 +10,13 @@
 	 margin: 50px 200px auto;}
 	 .head{height:50px; width:1300px; background-color: #000000; color:#ffffff;
 	 margin: 0px auto;}
-	 .navbar{position: absolute; width: 100%; left: 0; margin: auto; text-align: center;}
 	 #container{position:relative; margin: 150px 100px; height:370px; width:1500px; background-color: #ffffff; 
 	 opacity: 0.7; filter: alpha(opacity=70);}
 	 h1{color:#ffffff;}
 	 #bottom{position:fixed; bottom: 0px; background-color: #303030; width: 100%; height: 100px;}
+	 
 }
+
 </style>
 <link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>" />
 <script type="text/javascript" src="<?php echo base_url("assets/js/jquery-2.2.3.js"); ?>"></script>
@@ -41,9 +42,18 @@ $(document).ready(function(){
 <body>
 <div class="bg" data-ibg-bg="<?php echo base_url("assets/images/tower.jpg"); ?>">
 <div class="navbar-wrapper">
-<nav class="navbar navbar-inverse" role="navigation">
-	<div class="navbar-collaspe collaspe">
-		<ul class="nav navbar-center">
+<div class="container">
+<nav class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        </button>
+<div id="navbar" class="navbar-collapse collapse">
+<ul id ="navbar" class="nav navbar-nav">
 	
 			<li><a href="<?= site_url('Welcome/') ?>" class="navbar-brand"><span class="glyphicon glyphicon-home"></span></a></li>
 			<li><a href="<?= site_url('Design/') ?>" class="navbar-brand">Design</a></li>
@@ -52,7 +62,9 @@ $(document).ready(function(){
 			<li><a href="<?= site_url('Blog/') ?>" class="navbar-brand">Blog</a></li>
 		</ul>
 	</div>
+	</div>
 </nav>
+</div>
 </div>
 
 
