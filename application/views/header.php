@@ -14,6 +14,7 @@
 	 opacity: 0.7; filter: alpha(opacity=70);}
 	 h1{color:#ffffff;}
 	 #bottom{position:fixed; bottom: 0px; background-color: #303030; width: 100%; height: 100px;}
+	 body{height:100%, width:100%;}
 	 
 }
 
