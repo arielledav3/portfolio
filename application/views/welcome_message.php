@@ -10,12 +10,11 @@
 		<br/>
 		<blockquote>
 		<p>Welcome to the adventures of a recent college graduate. My name is Arielle ,and I recently received
-		my Bachelor's of Science in Computer Science from DePaul University. I am currently looking for 
+		a Bachelor's of Science in Computer Science from DePaul University. I am currently looking for 
 		employment in web development, app development, and software development. Currently, I
-		know Java, Ruby on Rails, PHP, JQuery, JavaScript, HTML/CSS as programming languages go.
-		While all of this is going on I do quite a bit of traveling, reading, and all around 
-		experiencing new things except love. Anyways I work hard and when I can a play some too. 
-		This site is and will be a collection of my work over the years. Thanks for visiting.
+		know Java, Ruby on Rails, PHP, JQuery, JavaScript, HTML/CSS as programming languages.
+		While all of this is going on I do quite a bit of traveling, reading, and creating new experiences for myself. Anyways, I work hard and when I can a play some too. 
+		This site is  a collection of my work over the years. Thanks for visiting.
 		
 		<br/> 
 		</p>
